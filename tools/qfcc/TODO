@@ -1,0 +1,21 @@
+o = todo
+X = done
+? = maybe but not likely
+M = more testing
+I = in progress
+W = waiting on other work
+
+X	fix object files
+M	arrays in structures
+M	unnamed function parameters for prototypes/typdefs etc.
+I	optimizations (esp CSE)
+I	fix used/uninitialized warnings
+o	id id;
+o	vec = [x, y, z]; expressions (nice feature in fteqcc)
+o	fix enums in switch statements (use tables (treat as int), check missing)
+o	arrays in entities
+o	optional arguments for functions (alternative to overloading)
+	vector(vector fwd, optional vector up) vectoangles = #51;
+?	try to reduce memory consumption
+??	embedded nul characters in strings (why?)
+??	"":"" string concatenation (parser issues) (why?)
